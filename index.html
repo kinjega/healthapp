@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health & Safety Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Health & Safety Tracker</h1>
+    </header>
+
+    <main>
+        <!-- Health Tracking -->
+        <section id="health-tracking">
+            <h2>Health Tracking</h2>
+            <form id="health-form">
+                <label for="health-data">Log Health Data:</label>
+                <input type="text" id="health-data" placeholder="Enter your health data">
+                <button type="submit">Submit</button>
+            </form>
+            <div id="health-log">
+                <h3>Health Log:</h3>
+                <ul id="health-list"></ul>
+            </div>
+        </section>
+
+        <!-- Wellness Tips -->
+        <section id="wellness-tips">
+            <h2>Wellness Tips</h2>
+            <button id="get-tips">Get Daily Wellness Tip</button>
+            <p id="wellness-tip"></p>
+        </section>
+
+        <!-- Safety Alerts -->
+        <section id="safety-alerts">
+            <h2>Safety Alerts</h2>
+            <form id="alert-form">
+                <label for="alert-description">Report Safety Alert:</label>
+                <input type="text" id="alert-description" placeholder="Describe the alert">
+                <button type="submit">Report</button>
+            </form>
+            <div id="alert-log">
+                <h3>Alert Log:</h3>
+                <ul id="alert-list"></ul>
+            </div>
+        </section>
+
+        <!-- Emergency Contact -->
+        <section id="emergency-contact">
+            <h2>Emergency Contact</h2>
+            <button id="get-location">Get Real-Time Location</button>
+            <p id="location"></p>
+        </section>
+
+        <!-- Local Services Request -->
+        <section id="local-services">
+            <h2>Local Services Request</h2>
+            <form id="services-form">
+                <label for="service-type">Request Service:</label>
+                <input type="text" id="service-type" placeholder="e.g., Electrician, Plumber">
+                <button type="submit">Request</button>
+            </form>
+            <div id="services-log">
+                <h3>Service Requests:</h3>
+                <ul id="services-list"></ul>
+            </div>
+        </section>
+
+        <!-- Connect with Healthcare Professional -->
+        <section id="healthcare-contact">
+            <h2>Connect with Healthcare Professional</h2>
+            <button id="connect-healthcare">Connect</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
